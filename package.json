@@ -1,0 +1,13 @@
+{
+  "name": "learngreat",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A reusable personal learning journal driven by AGENTS.md conventions.",
+  "scripts": {
+    "dev": "node scripts/build-content.mjs && node scripts/dev-server.mjs",
+    "build": "node scripts/build-content.mjs && node scripts/build-site.mjs",
+    "check": "node scripts/build-content.mjs --check",
+    "preview": "node scripts/dev-server.mjs dist"
+  }
+}
